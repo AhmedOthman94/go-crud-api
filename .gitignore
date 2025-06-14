@@ -1,0 +1,9 @@
+/app
+.env
+*.exe
+*.log
+*.out
+*.test
+vendor/
+.idea/
+.DS_Store
