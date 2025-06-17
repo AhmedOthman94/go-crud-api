@@ -1,6 +1,6 @@
 package initializers
 
-import "go-crud-api/models"
+import "github.com/AhmedOthman94/go-crud-api/models"
 
 func SyncDatabase() {
 	DB.AutoMigrate(&models.Post{})

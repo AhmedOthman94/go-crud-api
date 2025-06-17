@@ -1,11 +1,12 @@
 package main
 
 import (
+	"log"
+
+	"github.com/AhmedOthman94/go-crud-api/initializers"
+	"github.com/AhmedOthman94/go-crud-api/routes"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
-	"log"
-	"go-crud-api/initializers"
-	"go-crud-api/routes"
 )
 
 func init() {
